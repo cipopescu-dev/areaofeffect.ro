@@ -1,0 +1,23 @@
+{
+  "name": "areaofeffect.ro",
+  "version": "1.0.0-beta",
+  "description": "World of Warcraft Classic (SoD) - Area of Effect guild",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview"
+  },
+  "author": "cipdev",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.2.0",
+    "simple-wc-router": "^2.3.4"
+  },
+  "devDependencies": {
+    "rollup-plugin-minify-html-literals": "^1.2.6",
+    "vite": "^5.4.7"
+  }
+}
