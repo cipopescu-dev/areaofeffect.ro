@@ -17,12 +17,12 @@ export const AoeStates = [
     menuEntry: "Discord",
     component: "ro-aoe-discord",
   },
-  {
-    path: "/stream",
-    extern: false,
-    menuEntry: "Stream",
-    component: "ro-aoe-stream",
-  },
+  // {
+  //   path: "/stream",
+  //   extern: false,
+  //   menuEntry: "Stream",
+  //   component: "ro-aoe-stream",
+  // },
   {
     path: "/logs",
     extern: true,
