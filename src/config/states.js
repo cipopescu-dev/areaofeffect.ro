@@ -2,12 +2,13 @@ export const AoeStates = [
   {
     path: "/",
     extern: false,
+    menuEntry: "Home",
     component: "ro-aoe-home",
   },
   {
     path: "/about",
     extern: false,
-    menuEntry: "About",
+    // menuEntry: "About",
     component: "ro-aoe-about",
   },
   {
