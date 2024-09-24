@@ -2,15 +2,14 @@ export const AoeStates = [
   {
     path: "/",
     extern: false,
-    menuEntry: "Home",
     component: "ro-aoe-home",
   },
-  // {
-  //   path: "/about",
-  //   extern: false,
-  //   menuEntry: "About",
-  //   component: "ro-aoe-about",
-  // },
+  {
+    path: "/about",
+    extern: false,
+    menuEntry: "About",
+    component: "ro-aoe-about",
+  },
   {
     path: "/discord",
     extern: false,
@@ -33,5 +32,8 @@ export const AoeStates = [
     extern: true,
     menuEntry: "Calendar",
   },
-  ,
+  {
+    path: "*",
+    component: "ro-aoe-home",
+  },
 ];

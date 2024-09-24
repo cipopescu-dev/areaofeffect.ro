@@ -1,6 +1,6 @@
 {
   "name": "areaofeffect.ro",
-  "version": "1.0.2-beta",
+  "version": "1.0.3-beta",
   "description": "World of Warcraft Classic (SoD) - Area of Effect guild",
   "type": "module",
   "main": "src/index.js",

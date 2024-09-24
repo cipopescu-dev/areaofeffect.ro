@@ -12,7 +12,7 @@ export class AoeMenu extends RouteMixin(LitElement) {
   render() {
     return html` <div class="menu-container shadow">
       <div class="menu-item-container">
-        ${AoeStates.map(
+        ${AoeStates.filter(({ menuEntry }) => !!menuEntry).map(
           ({ path, menuEntry, extern }) =>
             html` <ro-aoe-nav-button .extern="${extern}" route="${path}"
               >${menuEntry}</ro-aoe-nav-button

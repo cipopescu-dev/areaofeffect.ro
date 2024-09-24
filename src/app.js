@@ -4,13 +4,7 @@ import { AoeStates } from "./config/states.js";
 import logoSvg from "/logo.svg";
 
 export class AoeApp extends Router(LitElement) {
-  static routes = [
-    ...AoeStates,
-    {
-      path: "*",
-      component: "ro-aoe-home",
-    },
-  ];
+  static routes = AoeStates;
 
   static get properties() {
     return {};
