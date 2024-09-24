@@ -5,12 +5,12 @@ export const AoeStates = [
     menuEntry: "Home",
     component: "ro-aoe-home",
   },
-  {
-    path: "/about",
-    extern: false,
-    menuEntry: "About",
-    component: "ro-aoe-about",
-  },
+  // {
+  //   path: "/about",
+  //   extern: false,
+  //   menuEntry: "About",
+  //   component: "ro-aoe-about",
+  // },
   {
     path: "/discord",
     extern: false,
