@@ -23,6 +23,7 @@ export class AoeHome extends LitElement {
     css`
       .info {
         text-align: center;
+        position: relative;
       }
       .info > :nth-child(1) {
         color: var(--acc3);
