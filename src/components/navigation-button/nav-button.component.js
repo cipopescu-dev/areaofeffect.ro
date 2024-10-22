@@ -31,7 +31,7 @@ export class NavButton extends RouteMixin(LitElement) {
   handleClick() {
     if (this.disabled) this.navigate("/");
     if (this.extern) {
-      window.location.href = `${location.origin}${this.route}`;
+      window.location.href = this.route;
       return;
     }
     this.navigate();

@@ -24,12 +24,12 @@ export const AoeStates = [
   //   component: "ro-aoe-stream",
   // },
   {
-    path: "/logs",
+    path: "https://sod.warcraftlogs.com/guild/reports-list/728561",
     extern: true,
     menuEntry: "Logs",
   },
   {
-    path: "/calendar",
+    path: "https://raid-helper.dev/calendar/1197960195532410962",
     extern: true,
     menuEntry: "Calendar",
   },
