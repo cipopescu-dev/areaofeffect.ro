@@ -34,12 +34,6 @@ export class AoeDiscord extends LitElement {
             <input type="submit" value="Join AoE!" />
           </form>`
         : ""}
-      <iframe
-        src="https://discord.com/widget?id=1197960195532410962&theme=dark"
-        allowtransparency="true"
-        frameborder="0"
-        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-      ></iframe>
     </div>`;
   }
 
@@ -75,14 +69,6 @@ export class AoeDiscord extends LitElement {
       }
       label {
         font-weight: bolder;
-      }
-      iframe {
-        display: block;
-        margin: 1rem auto;
-        width: min(800px, 90dvw);
-        height: 450px;
-        border: 1px solid var(--border);
-        border-radius: 8px;
       }
     `,
   ];

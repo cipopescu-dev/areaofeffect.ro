@@ -24,7 +24,7 @@ export class AoeApp extends Router(LitElement) {
   static styles = [
     css`
       .logo {
-        max-width: 800px;
+        max-width: 400px;
         display: block;
         margin: 0 auto;
         pointer-events: none;
