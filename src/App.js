@@ -87,8 +87,8 @@ export class App extends Router(LitElement) {
         }
 
         img {
-          width: 50dvw;
-          height: auto;
+          width: min(100dvh, 50dvw);
+          margin: 0 auto;
         }
 
         main {

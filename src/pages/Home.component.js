@@ -56,8 +56,8 @@ export class Home extends LitElement {
       <hr />
       <h2>📞 Contact</h2>
       <p>
-        Vrei să afli mai multe? Dă un /w Garthpriest și hai să povestim! Te
-        așteptăm cu entuziasm în echipa noastră! 🚀
+        Vrei să afli mai multe? Dă un /w Garthmage sau Mookeeper și hai să
+        povestim! Te așteptăm cu entuziasm în echipa noastră! 🚀
       </p>
     `;
   }
