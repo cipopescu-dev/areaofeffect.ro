@@ -21,7 +21,7 @@ export class App extends Router(LitElement) {
         component: "aoe-redirect",
         render: () =>
           html` <aoe-redirect
-            .route="${"https://raid-helper.dev/calendar/1197960195532410962"}"
+            .route="${"https://sod.warcraftlogs.com/guild/reports-list/728561"}"
           ></aoe-redirect>`,
         import: () => import("./components/Redirect.component.js"),
       },
@@ -30,7 +30,7 @@ export class App extends Router(LitElement) {
         component: "aoe-redirect",
         render: () =>
           html` <aoe-redirect
-            .route="${"https://sod.warcraftlogs.com/guild/reports-list/728561"}"
+            .route="${"https://raid-helper.dev/calendar/1197960195532410962"}"
           ></aoe-redirect>`,
         import: () => import("./components/Redirect.component.js"),
       },
