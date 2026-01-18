@@ -17,6 +17,24 @@ export class App extends Router(LitElement) {
         import: () => import("./pages/Discord.component.js"),
       },
       {
+        path: "/logs",
+        component: "aoe-redirect",
+        render: () =>
+          html` <aoe-redirect
+            .route="${"https://raid-helper.dev/calendar/1197960195532410962"}"
+          ></aoe-redirect>`,
+        import: () => import("./components/Redirect.component.js"),
+      },
+      {
+        path: "/calendar",
+        component: "aoe-redirect",
+        render: () =>
+          html` <aoe-redirect
+            .route="${"https://sod.warcraftlogs.com/guild/reports-list/728561"}"
+          ></aoe-redirect>`,
+        import: () => import("./components/Redirect.component.js"),
+      },
+      {
         path: "*",
         component: "aoe-notfound",
         import: () => import("./pages/NotFound.component.js"),
