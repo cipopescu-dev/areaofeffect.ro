@@ -1,0 +1,1 @@
+import{i as e,b as t,a as o}from"./index-WYw7LMBx.js";class s extends e{static properties={};render(){return t`<h2>404 The requested page could not be found</h2>`}static styles=[o``]}window.customElements.define("aoe-notfound",s);export{s as NotFound};
