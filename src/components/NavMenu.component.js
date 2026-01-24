@@ -26,7 +26,7 @@ export class NavMenu extends RouteMixin(LitElement) {
       </button>
       <button
         @click="${() =>
-          this.go("https://sod.warcraftlogs.com/guild/reports-list/728561")}"
+          this.go("https://fresh.warcraftlogs.com/guild/reports-list/801529")}"
       >
         Logs
       </button>

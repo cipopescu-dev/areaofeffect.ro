@@ -21,6 +21,15 @@ export class App extends Router(LitElement) {
         component: "aoe-redirect",
         render: () =>
           html` <aoe-redirect
+            .route="${"https://fresh.warcraftlogs.com/guild/reports-list/801529"}"
+          ></aoe-redirect>`,
+        import: () => import("./components/Redirect.component.js"),
+      },
+      {
+        path: "/logs-sod",
+        component: "aoe-redirect",
+        render: () =>
+          html` <aoe-redirect
             .route="${"https://sod.warcraftlogs.com/guild/reports-list/728561"}"
           ></aoe-redirect>`,
         import: () => import("./components/Redirect.component.js"),
