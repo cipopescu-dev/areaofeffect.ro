@@ -13,8 +13,11 @@ export class Home extends LitElement {
         </li>
         <li>
           Fiind o guilda semi-casual cu note hardcore 🔥, raidăm săptămânal și
-          facem clear-uri eficiente încă din SoD Phase1, pentru că știm că
-          loot-ul nu așteaptă! 😎
+          facem clear-uri eficiente
+          <a href="https://sod.warcraftlogs.com/guild/reports-list/728561"
+            >încă din SoD</a
+          >
+          Phase1, pentru că știm că loot-ul nu așteaptă! 😎
         </li>
         <li>
           Recrutăm orice clasă/spec. Nu contează cu ce joci, contează să vrei să
