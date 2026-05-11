@@ -1,1 +1,0 @@
-import{l as e,i as t,b as r}from"./index-Zga6qB6o.js";class i extends e(t){connectedCallback(){super.connectedCallback(),this.navigate()}render(){return r`<h2>Redirecting to:</h2><a href="${this.route}">${this.route}</a>`}}window.customElements.define("aoe-redirect",i);export{i as Redirect};
