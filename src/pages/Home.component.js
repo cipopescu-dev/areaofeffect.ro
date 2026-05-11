@@ -27,9 +27,8 @@ export class Home extends LitElement {
       <hr />
       <h2>📅 Zile de raid</h2>
       <ul>
-        <li>Main-raid: Miercurea 20:30 ST</li>
-        <li>*Off-raid: Duminica 20:30 ST</li>
-        <li>Ad-hoc raids/events: random, la cerere</li>
+        <li>Main-raids: Joia Duminica si Lunea 20:30 ST</li>
+        <li>*Off-raids: Restul zilelor, ad-hoc 20:30 ST</li>
         <li>* tot ce nu tine de current tier</li>
       </ul>
       <hr />
@@ -59,7 +58,7 @@ export class Home extends LitElement {
       <hr />
       <h2>📞 Contact</h2>
       <p>
-        Vrei să afli mai multe? Dă un /w Garthmage sau Mookeeper și hai să
+        Vrei să afli mai multe? Dă un /w <a href="https://fresh.warcraftlogs.com/character/eu/spineshatter/garthadin">Garthadin</a> sau <a href="https://fresh.warcraftlogs.com/character/eu/spineshatter/moonkeeper">Moonkeeper</a> și hai să
         povestim! Te așteptăm cu entuziasm în echipa noastră! 🚀
       </p>
     `;
