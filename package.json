@@ -1,7 +1,7 @@
 {
   "name": "areaofeffect.ro",
   "private": true,
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "World of Warcraft Classic (SoD) - Area of Effect guild",
   "type": "module",
   "scripts": {

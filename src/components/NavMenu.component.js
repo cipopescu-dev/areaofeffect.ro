@@ -39,7 +39,9 @@ export class NavMenu extends RouteMixin(LitElement) {
 
       <button
         @click="${() =>
-          this.go("https://raid-helper.dev/calendar/1197960195532410962")}"
+          this.go(
+            "https://raid-helper.dev/calendar/1197960195532410962/XWSuOrsKGZjNANdZcGoo",
+          )}"
       >
         Calendar</button
       ><span class="fire">🔥</span>`;

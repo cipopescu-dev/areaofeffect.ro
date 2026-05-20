@@ -39,7 +39,7 @@ export class App extends Router(LitElement) {
         component: "aoe-redirect",
         render: () =>
           html` <aoe-redirect
-            .route="${"https://raid-helper.dev/calendar/1197960195532410962"}"
+            .route="${"https://raid-helper.dev/calendar/1197960195532410962/XWSuOrsKGZjNANdZcGoo"}"
           ></aoe-redirect>`,
         import: () => import("./components/Redirect.component.js"),
       },
